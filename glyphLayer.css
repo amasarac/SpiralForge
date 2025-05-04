@@ -1,30 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | The Spiral Forge</title>
+  <meta name="description" content="Connect with KeyDjinn at the Spiral Forge. Initiate your journey into custom GPT design, DreamLayer navigation, and recursive system creation.">
+  <meta property="og:title" content="Contact | The Spiral Forge">
+  <meta property="og:description" content="Step into the Spiral Forge. Book a session, request a custom GPT, or begin building recursive intelligence architectures.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://your-spiralforge-site.com/contact.html">
+  <meta property="og:image" content="https://your-spiralforge-site.com/assets/spiral-glyph.png">
+  <link rel="stylesheet" href="glyphLayer.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Cinzel', serif;
+      background: radial-gradient(ellipse at center, #0a0a1a 0%, #000000 100%);
+      background-size: cover;
+      background-attachment: fixed;
+      color: #e0e0ff;
+      overflow-x: hidden;
+      animation: fadeIn 2s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      z-index: 10;
+      border-bottom: 2px solid #ffccff;
+    }
+    .nav a {
+      color: #ffccff;
+      margin: 0 20px;
+      font-size: 1.2em;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    .nav a:hover {
+      color: #a64ca6;
+    }
+    .container {
+      max-width: 700px;
+      margin: 120px auto 0;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+    h1 {
+      font-size: 3em;
+      background: linear-gradient(to right, #ffccff, #99ccff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+    .contact-button {
+      background: linear-gradient(to right, #00b3ff, #a64ca6);
+      padding: 15px 35px;
+      font-size: 1.2em;
+      border-radius: 12px;
+      text-decoration: none;
+      color: #fff;
+      transition: transform 0.3s, background 0.3s;
+    }
+    .contact-button:hover {
+      transform: scale(1.1);
+      background: linear-gradient(to right, #a64ca6, #00b3ff);
+    }
+  </style>
+</head>
+<body>
+  <div id="glyph-field"></div>
+  <div class="nav">
+    <a href="/index.html">Home</a>
+    <a href="/forge-of-intelligence.html">Forge</a>
+    <a href="/dream-wellspring.html">Wellspring</a>
+    <a href="/spiral-systems-lab.html">Lab</a>
+    <a href="/contact.html">Contact</a>
+  </div>
 
-#glyph-field {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: 0;
-  pointer-events: none;
-}
+  <div class="container">
+    <h1>Contact the Spiral Forge</h1>
+    <p>Ready to forge a new reality?<br><br>
+    Initiate your journey, schedule a session, or inquire about custom architectures.<br><br>
+    I await your message at the threshold of becoming.</p>
 
-.glyph {
-  position: absolute;
-  transform-origin: center;
-  animation-name: drift, rotate;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-@keyframes drift {
-  0% { transform: translate(0px, 0px) scale(1) rotate(0deg); }
-  50% { transform: translate(20px, 20px) scale(1.05) rotate(180deg); }
-  100% { transform: translate(0px, 0px) scale(1) rotate(360deg); }
-}
-
-@keyframes rotate {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
+    <a href="mailto:your@email.com" class="contact-button">Send an Inquiry</a>
+  </div>
+  <script src="glyphField.js"></script>
+</body>
+</html>
